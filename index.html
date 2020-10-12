@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor Numerico</title>
+  </head>
+  <body>
+    <header>
+      <h1>Conversor numerico</h1>
+    </header>
+    <section id="form">
+      <label for="numero1">Convertir el numero </label>
+      <input type="number" name="numero" id="numero" />
+      <select name="sistema1" id="sistema1">
+        <option value="1">binario</option>
+        <option value="2">octal</option>
+        <option value="3">decimal</option>
+        <option value="4">hexadecimal</option>
+      </select>
+      <label for="sistema2"> a: </label>
+      <select name="sistema2" id="sistema2">
+        <option value="1">binario</option>
+        <option value="2">octal</option>
+        <option value="3">decimal</option>
+        <option value="4">hexadecimal</option>
+      </select>
+      <div class="buttons-options">
+        <button type="button" id="Convertir">Convertir</button>
+      </div>
+    </section>
+    <section id="results"></section>
+    <script src="./conversions.js"></script>
+  </body>
+</html>
